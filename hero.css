@@ -1,0 +1,49 @@
+/* Hero Section  */
+
+.hero__section {
+  text-align: center;
+  margin-top: 10rem;
+}
+.hero__title {
+  font-size: 4rem;
+  max-width: 30ch;
+  margin: 0 auto;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+.hero__description {
+  font-size: 1.2rem;
+  max-width: 60ch;
+  margin: 1rem auto;
+}
+
+@media (max-width: 794px) {
+  .hero__title {
+    font-size: 3rem;
+  }
+  .hero__description {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 596px) {
+  .hero__title {
+    font-size: 2.5rem;
+  }
+  .hero__description {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 496px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+  .hero__description {
+    font-size: 0.5rem;
+  }
+  .btn {
+    font-size: 0.5rem;
+  }
+  .hero__section {
+    margin-top: 4rem;
+  }
+}
